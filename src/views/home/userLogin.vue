@@ -26,18 +26,10 @@ export default {
     computed: {
     },
     methods: {
-        closeContract(){
-            let val={}
-            val.isShowOne = false
-            this.$emit('changeparamsone',val)
-        },
+       
         nextContract(){//点击下一步
             console.log("点击")
             this.$router.push('/Index')
-            // let val={}
-            // val.isShowOne = false
-            // val.isShowTwo = true
-            // this.$emit('changeparamsone',val)
         }
     },
 }
